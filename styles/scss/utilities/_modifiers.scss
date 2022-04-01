@@ -1,0 +1,57 @@
+@media (min-width: 769px) {
+    .rate--bg {
+        background-image: 
+            url("../../../images/icon-star.svg"),
+            url("../../../images/icon-star.svg"),
+            url("../../../images/icon-star.svg"),
+            url("../../../images/icon-star.svg"),
+            url("../../../images/icon-star.svg");
+            background-repeat: no-repeat;
+            background-size: 1rem;
+            background-position: 1.5rem,3rem,4.5rem,6rem,7.5rem;
+            background-color: $light-grayish-magenta;
+            padding: 1rem 1rem 1rem 10rem;
+            border-radius: 0.5rem;
+    }
+    .rate--margin-lr-1{
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+
+    .rate--margin-lr-2 {
+        margin-left: 108px;
+        margin-right: 36px;
+    }
+    .rate--margin-lr-3 {
+        margin-left: 144px;
+        margin-right: 0px;
+    }
+    .article--margin-top-56 {
+        margin-top: 56px;
+    }
+    .article--margin-top-72 {
+        margin-top: 72px;
+    }
+    .article--margin-top-88 {
+        margin-top: 88px
+    }
+}
+@media (max-width: 768px) {
+.rate--bg {
+    background-image: 
+        url("../../../images/icon-star.svg"),
+        url("../../../images/icon-star.svg"),
+        url("../../../images/icon-star.svg"),
+        url("../../../images/icon-star.svg"),
+        url("../../../images/icon-star.svg");
+        background-repeat: no-repeat;
+        background-position-x: 36%, 44%, 52%, 60%, 68%;
+        background-position-y: 12%, 12%, 12%, 12%, 12%;
+        background-color: $light-grayish-magenta;
+        padding: 2rem 0 0.75rem 0;
+        border-radius: 0.5rem;
+}
+.rate--margin-bottom-32 {
+    margin-bottom: 32px;
+}
+}
