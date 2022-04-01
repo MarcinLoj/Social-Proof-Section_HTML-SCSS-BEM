@@ -136,7 +136,7 @@ body {
         width: 384px;
     }
     .articles {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .article {
         margin: 0;
